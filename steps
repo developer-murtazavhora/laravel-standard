@@ -1,0 +1,14 @@
+composer create-project --prefer-dist laravel/laravel murtaza_interview
+composer update
+create database in mysql
+php artisan key:generate
+php artisan migrate
+
+composer require laravel/ui
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+npm install && npm run dev
+
+php artisan make:model Models/Category -m
+php artisan make:model Models/Product -m
+php artisan make:model Models/ProductHasCategory -m
